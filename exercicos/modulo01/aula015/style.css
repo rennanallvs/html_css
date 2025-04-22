@@ -1,0 +1,19 @@
+
+
+body{
+    background-color:rgb(221, 196, 134);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+h1{
+    color:maroon;
+    background-color:darkkhaki;
+    font-size: 1.5em;
+}
+h2{
+    color:darkgoldenrod;
+    font-size: 1em;
+}
+p{
+   text-align: justify;
+}

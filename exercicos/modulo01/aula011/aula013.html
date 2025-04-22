@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body> 
+    <h1>Imagen dinâmica</h1>
+    
+    <picture>
+        <source media="(max-width:750px )" srcset="imagens/foto-p.png">
+        <source media="(max-width:1050px )" srcset="imagens/foto-m.png">
+        <img src="imagens/foto-g.png" alt="foto flexível">
+    </picture>
+    <h1>Reproduzindo Audio </h1>
+    <p>Vamos aprender a reproduzir audios em HTML5</p>
+    <audio preload="none" autoplay controls loop>
+        <source src="mídia/Baroque Coffee House (Sting) - Doug Maxwell_Media Right Productions01.mp3" type="audio/mpeg">
+        <source src="mídia/Dinner Chimes - The U.S. Marine Corps Band02.mp3" type="audio/ogg">
+        <p>Infelizmente seu navegador não conseguir reprodduzir o audio <a href="mídia/Baroque Coffee House (Sting) - Doug Maxwell_Media Right Productions01.mp3">Clique Aqui</a> para baixar o arquivo MP3</p>
+    </audio>
+
+    
+</body>
+</html>
