@@ -12,10 +12,25 @@
         table{
             width: 500px;
             border-collapse: collapse;
+            position: relative;
+        }
+        caption{
+            font-size: 1.5;
+            font-weight: bold;
+            padding: 8px;
+            background-color: lightgrey;
         }
         thead, tfoot{
             background-color: gray;
             color: white;
+        }
+        thead > tr > th{
+            position: sticky;
+            top: -1px;
+            background-color: grey;
+        }
+        tbody > tr:nth-child(odd){
+            background-color: lightgray;
         }
         td, th{
             border: 1px solid black;
@@ -29,13 +44,14 @@
 </head>
 <body>
     <h1>
-        uso de tabelas gandes
+        Uso de tabelas grandes
     </h1>
     <table>
+        <caption>Unidades federativas do Brasil por população</caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>Populaçao</th>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 50px;">Populaçao</th>
 
             </tr>
         </thead>
@@ -52,14 +68,38 @@
                 <td>Rio de Janeiro</td>
                 <td class="num">17 219 679	</td>
             </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num">14 850 513	</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td class="num">11 824 665	</td>
+            </tr>
+            <tr>
+                <td> Rio Grande do Sul</td>
+                <td class="num">11 229 915	</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td class="num">9 539 029</td>
+            </tr>
+            <tr>
+                <td> Ceará</td>
+                <td class="num">9 233 656</td>
+            </tr>
+            <tr>
+                <td>Pará</td>
+                <td class="num">9 233 656</td>
         </tbody>
         <tfoot>
             <tr>
-             
+             <th scope="row">Total de Habitantes</th>
+             <td class="num">212 583 750</td>
 
             </tr>
         </tfoot>
     </table>
-    
-</body>
-</html>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla odio quis nostrum modi provident cupiditate ut labore sequi in itaque possimus soluta, eligendi eveniet, rem aliquam voluptatem repudiandae quo iste Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium vel quo fugit pariatur repudiandae consequatur nobis sequi, quia illo mollitia soluta nihil eos fuga iure suscipit quod at officiis expedita.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla odio quis nostrum modi provident cupiditate ut labore sequi in itaque possimus soluta, eligendi eveniet, rem aliquam voluptatem repudiandae quo iste Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium vel quo fugit pariatur repudiandae consequatur nobis sequi, quia illo mollitia soluta nihil eos fuga iure suscipit quod at officiis expedita.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla odio quis nostrum modi provident cupiditate ut labore sequi in itaque possimus soluta, eligendi eveniet, rem aliquam voluptatem repudiandae quo iste Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium vel quo fugit pariatur repudiandae consequatur nobis sequi, quia illo mollitia soluta nihil eos fuga iure suscipit quod at officiis expedita.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla odio quis nostrum modi provident cupiditate ut labore sequi in itaque possimus soluta, eligendi eveniet, rem aliquam voluptatem repudiandae quo iste Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium vel quo fugit pariatur repudiandae consequatur nobis sequi, quia illo mollitia soluta nihil eos fuga iure suscipit quod at officiis expedita.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla odio quis nostrum modi provident cupiditate ut labore sequi in itaque possimus soluta, eligendi eveniet, rem aliquam voluptatem repudiandae quo iste Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium vel quo fugit pariatur repudiandae consequatur nobis sequi, quia illo mollitia soluta nihil eos fuga iure suscipit quod at officiis expedita.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla odio quis nostrum modi provident cupiditate ut labore sequi in itaque possimus soluta, eligendi eveniet, rem aliquam voluptatem repudiandae quo iste Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium vel quo fugit pariatur repudiandae consequatur nobis sequi, quia illo mollitia soluta nihil eos fuga iure suscipit quod at officiis expedita.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla odio quis nostrum modi provident cupiditate ut labore sequi in itaque possimus soluta, eligendi eveniet, rem aliquam voluptatem repudiandae quo iste Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium vel quo fugit pariatur repudiandae consequatur nobis sequi, quia illo mollitia soluta nihil eos fuga iure suscipit quod at officiis expedita.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla odio quis nostrum modi provident cupiditate ut labore sequi in itaque possimus soluta, eligendi eveniet, rem aliquam voluptatem repudiandae quo iste Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium vel quo fugit pariatur repudiandae consequatur nobis sequi, quia illo mollitia soluta nihil eos fuga iure suscipit quod at officiis expedita.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla odio quis nostrum modi provident cupiditate ut labore sequi in itaque possimus soluta, eligendi eveniet, rem aliquam voluptatem repudiandae quo iste Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium vel quo fugit pariatur repudiandae consequatur nobis sequi, quia illo mollitia soluta nihil eos fuga iure suscipit quod at officiis expedita.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla odio quis nostrum modi provident cupiditate ut labore sequi in itaque possimus soluta, eligendi eveniet, rem aliquam voluptatem repudiandae quo iste Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium vel quo fugit pariatur repudiandae consequatur nobis sequi, quia illo mollitia soluta nihil eos fuga iure suscipit quod at officiis expedita.</<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla odio quis nostrum modi provident cupiditate ut labore sequi in itaque possimus soluta, eligendi eveniet, rem aliquam voluptatem repudiandae quo iste Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium vel quo fugit pariatur repudiandae consequatur nobis sequi, quia illo mollitia soluta nihil eos fuga iure suscipit quod at officiis expedita.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla odio quis nostrum modi provident cupiditate ut labore sequi in itaque possimus soluta, eligendi eveniet, rem aliquam voluptatem repudiandae quo iste Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium vel quo fugit pariatur repudiandae consequatur nobis sequi, quia illo mollitia soluta nihil eos fuga iure suscipit quod at officiis expedita.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla odio quis nostrum modi provident cupiditate ut labore sequi in itaque possimus soluta, eligendi eveniet, rem aliquam voluptatem repudiandae quo iste Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium vel quo fugit pariatur repudiandae consequatur nobis sequi, quia illo mollitia soluta nihil eos fuga iure suscipit quod at officiis expedita.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla odio quis nostrum modi provident cupiditate ut labore sequi in itaque possimus soluta, eligendi eveniet, rem aliquam voluptatem repudiandae quo iste Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium vel quo fugit pariatur repudiandae consequatur nobis sequi, quia illo mollitia soluta nihil eos fuga iure suscipit quod at officiis expedita.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla odio quis nostrum modi provident cupiditate ut labore sequi in itaque possimus soluta, eligendi eveniet, rem aliquam voluptatem repudiandae quo iste Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium vel quo fugit pariatur repudiandae consequatur nobis sequi, quia illo mollitia soluta nihil eos fuga iure suscipit quod at officiis expedita.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla odio quis nostrum modi provident cupiditate ut labore sequi in itaque possimus soluta, eligendi eveniet, rem aliquam voluptatem repudiandae quo iste Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium vel quo fugit pariatur repudiandae consequatur nobis sequi, quia illo mollitia soluta nihil eos fuga iure suscipit quod at officiis expedita.</p>
