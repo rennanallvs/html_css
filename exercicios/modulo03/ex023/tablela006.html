@@ -4,16 +4,130 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>tabelas </title>
+    <style>
+        table {
+            width: 400px;
+            height: 300px;
+            border-collapse: collapse;
+        }   
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+        caption{
+            font-weight: bold;
+            font-size: 1.5em;
+        }
+        #container {
+         overflow-x: auto;
+         width: 500px;
+        }
+        .nome{
+            background-color: aquamarine;
+        }
+        .sexo{
+            background-color: lightblue;
+        }
+        .idade{
+            background-color: lightgreen;
+        }
+        .profisao{
+            background-color: lightcoral;
+        }
+    </style>
 </head>
 <body>
-    <table>
-        <caption>cadastro</caption>
-        <tr>
-            <th>Nome</th>
-            <th>sexo</th>
-            <th>idade</th>
-            <th>profisao</th>
-        </tr>
-    </table>
+    <h1>tabelas</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae quis labore libero delectus quos error impedit inventore assumenda recusandae, eos veniam nisi in ab corporis saepe hic illo unde voluptas? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit, architecto sequi! Magni quae distinctio, animi </p>
+    <div id="container">
+        <table>
+            <colgroup>
+                <col class="nome">
+                <col class="sexo">
+                <col class="idade">
+                <col class="profisao">
+            </colgroup>
+            <caption>CADASTRO</caption>
+            <tr>
+                <th>NOME</th>
+                <th>SEXO</th>
+                <th>IDADE</th>
+                <th>PROFISÃO</th>
+                <th>001</th>
+                <th>002</th>
+                <th>003</th>
+                <th>004</th>
+                <th>005</th>
+                <th>006</th>
+                <th>007</th>
+            </tr>
+            <tr>
+                <td>CLAUDIO</td>
+                <td>Masculino</td>
+                <td>30</td>
+                <td>Desenvolvedor</td>
+                <td>001</td>
+                <td>002</td>
+                <td>003</td>
+                <td>004</td>
+                <td>005</td>
+                <td>006</td>
+                <td>007</td>
+            </tr>
+            <tr>
+                <td>MARIA</td>
+                <td>Feminino</td>
+                <td>25</td>
+                <td>Designer</td>
+                <td>001</td>
+                <td>002</td>
+                <td>003</td>
+                <td>004</td>
+                <td>005</td>
+                <td>006</td>
+                <td>007</td>
+            </tr>
+            <tr>
+                <td>JOAÕ</td>
+                <td>Masculino</td>
+                <td>28</td>
+                <td>Gerente</td>
+                <td>001</td>
+                <td>002</td>
+                <td>003</td>
+                <td>004</td>
+                <td>005</td>
+                <td>006</td>
+                <td>007</td>
+            </tr>
+            <tr>
+                <td>ANA</td>
+                <td>Feminino</td>
+                <td>22</td>
+                <td>Analista</td>
+                <td>001</td>
+                <td>002</td>
+                <td>003</td>
+                <td>004</td>
+                <td>005</td>
+                <td>006</td>
+                <td>007 </td>
+            </tr>
+            <tr>
+                <td>OTAVIO</td>
+                <td>Masculino</td>
+                <td>30</td>
+                <td>nutricionista</td>
+                <td>001</td>
+                <td>002</td>
+                <td>003</td>
+                <td>004</td>
+                <td>005</td>
+                <td>006</td>
+                <td>007</td>
+            </tr>
+        </table>
+    </div>
 </body>
 </html>
